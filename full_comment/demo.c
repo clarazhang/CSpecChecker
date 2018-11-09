@@ -1,0 +1,1 @@
+../../code-spec-checker/test/full_comment/demo.c

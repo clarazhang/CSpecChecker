@@ -1,0 +1,1 @@
+../../code-spec-checker/test/naming/demo.c
