@@ -27,6 +27,8 @@
 结果：
 ![](header/result.png)
 
+上图中，工具指出了demo0.h文件中对未定义类型`Type`的引用，说明该头文件不是自包含的；随后指出demo0.h和demo1.h出现循环包含的位置。
+
 ### 函数参数检查
 
 文件：[demo0.c](module/demo0.c)
@@ -39,3 +41,8 @@ demo0中没有检查任何输入参数就使用且调用模块内部函数时未
 
 ### 按需初始化检查
 
+文件：[demo0.c](init/demo0.c)
+
+结果：
+
+![](init/result.png)
